@@ -1,0 +1,24 @@
+<br>
+    <div class="row">
+        <div class="authentication-section-welcome">
+            <span><b>Bienvenidos</b></span><br>
+            <span class="hint">Ingresar el nombre de usuario y la contraseña registrada</span>
+         </div>
+    </div>
+        
+    <br>
+
+  <div class="row">
+    Usuario:
+  <input  size="25" placeholder="Usuario" (input)="userID=$event.target.value">
+    Contraseña:
+  <input  size="25" placeholder="Contraseña" (input)="userID=$event.target.value">
+  <input type="submit" value="Ingresar">
+  </div>
+
+  <br>
+  <div class="row">
+    <a href="#" (click)="onClickResetCredentials();">Olvidé la contraseña</a><br>
+    <a href="#">Crear una cuenta</a>
+  </div>
+  <br>
